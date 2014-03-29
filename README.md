@@ -1,4 +1,4 @@
 DoxyLua
 =======
 
-Another Doxygen Filter for Lua written with Lua language.
+Another Doxygen Filter for Lua.
