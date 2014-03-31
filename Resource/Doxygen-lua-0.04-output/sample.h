@@ -1,3 +1,17 @@
+
+
+local sample1 = require('folder.sample1');
+
+
+local _gVar1 = 1;
+
+local _gVar2 = 2; 
+
+
+local function-_funcT(arg1, arg2);
+
+
+function funcT(arg1, arg2);
 ///
 /// @author dreamlover
 /// @brief This is a sample lua file with comments.
@@ -6,15 +20,11 @@
 
 local sample1 = require('folder.sample1');
 
-///
-/// local functions
-///
 
 /// This is _gVar1.
 local _gVar1 = 1;
 
 local _gVar2 = 2; /// This is _gVar2.
-
 
 ///
 /// This is _funcT.
@@ -22,10 +32,6 @@ local _gVar2 = 2; /// This is _gVar2.
 /// @param arg2 This is arg2.
 /// @return Return something.
 local function-_funcT(arg1, arg2);
-
-///
-/// exported functions
-///
 
 ///
 /// This is funcT.

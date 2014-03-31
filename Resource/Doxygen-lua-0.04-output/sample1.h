@@ -1,3 +1,19 @@
+
+
+	SomeEnum.Enum1 = 1; 
+	SomeEnum.Enum2 = 2; 
+	SomeEnum.Enum3 = 3; 
+
+
+CClass = newClass();
+
+CClass.prop1 = nil;
+
+CClass.prop2 = nil; 
+
+function CClass-func1(arg1, arg2);
+
+function CClass-func2(arg1, arg2);
 ///
 /// @author dreamlover
 /// @brief This is a sample lua file with comments.
@@ -9,10 +25,6 @@
 	SomeEnum.Enum1 = 1; /// This is Enum1.
 	SomeEnum.Enum2 = 2; /// This is Enum2.
 	SomeEnum.Enum3 = 3; /// This is Enum3.
-
-///
-/// CClass
-///
 
 CClass = newClass();
 
