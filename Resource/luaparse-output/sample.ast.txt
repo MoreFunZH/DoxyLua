@@ -1,0 +1,230 @@
+{
+	"type":"Chunk",
+	"body":[
+		{
+			"type":"CallStatement",
+			"expression":{
+				"type":"CallExpression",
+				"base":{
+					"type":"Identifier",
+					"name":"module",
+					"isLocal":false},
+				"arguments":[
+					{
+						"type":"StringLiteral",
+						"value":"sample",
+						"raw":"'sample'"},
+					{
+						"type":"MemberExpression",
+						"indexer":".",
+						"identifier":{
+							"type":"Identifier",
+							"name":"seeall",
+							"isLocal":false},
+						"base":{
+							"type":"Identifier",
+							"name":"package",
+							"isLocal":false}
+					}
+				]
+			}
+		},
+		{
+			"type":"LocalStatement",
+			"variables":[
+				{
+					"type":"Identifier",
+					"name":"sample1",
+					"isLocal":true}
+			],
+			"init":[
+				{
+					"type":"CallExpression",
+					"base":{
+						"type":"Identifier",
+						"name":"require",
+						"isLocal":false
+					},
+					"arguments":[
+						{
+							"type":"StringLiteral",
+							"value":"folder.sample1",
+							"raw":"'folder.sample1'"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type":"LocalStatement",
+			"variables":[{"type":"Identifier","name":"_gVar1","isLocal":true}],"init":[{"type":"NumericLiteral","value":1,"raw":"1"}]
+		},
+		{
+			"type":"LocalStatement",
+			"variables":[{"type":"Identifier","name":"_gVar2","isLocal":true}],"init":[{"type":"NumericLiteral","value":2,"raw":"2"}]
+		},
+		{
+			"type":"FunctionDeclaration",
+			"identifier":{
+				"type":"Identifier",
+				"name":"_funcT",
+				"isLocal":true
+			},
+			"isLocal":true,
+			"parameters":[
+				{
+					"type":"Identifier","name":"arg1","isLocal":true
+				},
+				{
+					"type":"Identifier","name":"arg2","isLocal":true
+				}
+			],
+			"body":[]
+		},
+		{
+			"type":"FunctionDeclaration",
+			"identifier":{"type":"Identifier","name":"funcT","isLocal":false},
+			"isLocal":false,
+			"parameters":[{"type":"Identifier","name":"arg1","isLocal":true},{"type":"Identifier","name":"arg2","isLocal":true}],"body":[]
+		}
+	],
+	"comments":[
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":" @author dreamlover",
+			"raw":"-- @author dreamlover"
+		},
+		{
+			"type":"Comment",
+			"value":" @brief This is a sample lua file with comments.",
+			"raw":"-- @brief This is a sample lua file with comments."
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":" local functions",
+			"raw":"-- local functions"
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":"- This is _gVar1.",
+			"raw":"--- This is _gVar1."
+		},
+		{
+			"type":"Comment",
+			"value":"- This is _gVar2.",
+			"raw":"--- This is _gVar2."
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":" This is _funcT.",
+			"raw":"-- This is _funcT."
+		},
+		{
+			"type":"Comment",
+			"value":" @param arg1 This is arg1.",
+			"raw":"-- @param arg1 This is arg1."
+		},
+		{
+			"type":"Comment",
+			"value":" @param arg2 This is arg2.",
+			"raw":"-- @param arg2 This is arg2."
+		},
+		{
+			"type":"Comment",
+			"value":" @return Return something.",
+			"raw":"-- @return Return something."
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":" exported functions",
+			"raw":"-- exported functions"
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":"-------------------------------------------------------------------------------",
+			"raw":"---------------------------------------------------------------------------------"
+		},
+		{
+			"type":"Comment",
+			"value":" This is funcT.",
+			"raw":"-- This is funcT."
+		},
+		{
+			"type":"Comment",
+			"value":" @param arg1 This is arg1.",
+			"raw":"-- @param arg1 This is arg1."
+		},
+		{
+			"type":"Comment",
+			"value":" @param arg2 This is arg2.",
+			"raw":"-- @param arg2 This is arg2."
+		},
+		{
+			"type":"Comment",
+			"value":" @return Return something.",
+			"raw":"-- @return Return something."
+		}
+	],
+	"globals":[
+		{
+			"type":"Identifier",
+			"name":"module",
+			"isLocal":false
+		},
+		{
+			"type":"Identifier",
+			"name":"package",
+			"isLocal":false
+		},
+		{
+			"type":"Identifier",
+			"name":"seeall",
+			"isLocal":false
+		},
+		{
+			"type":"Identifier",
+			"name":"require",
+			"isLocal":false
+		},
+		{
+			"type":"Identifier",
+			"name":"funcT",
+			"isLocal":false
+		}
+	]
+}
