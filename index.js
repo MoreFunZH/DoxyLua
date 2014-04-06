@@ -1,1 +1,1 @@
-module.exports = require('./doxylua.js');
+module.exports = require('./lib/doxylua.js');

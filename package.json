@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dreamlover/DoxyLua",
   "bin": {
-    "doxylua": "./cli.js"
+    "doxylua": "./bin/cli.js"
   },
   "dependencies": {
     "luaparse": "^0.1.4"
