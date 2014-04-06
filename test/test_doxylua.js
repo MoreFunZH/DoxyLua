@@ -11,4 +11,10 @@ function _runTest(test, file) {
     test.done();
 }
 
-exports[''] = function (test) { _runTest(test, 'sample'); }
+exports['runAllTests'] = function (test) { 
+    var files = fs.readdirSync('./');
+    for (var i = 0; i < files.length; ++i) {
+        var fn = files[i].match(/(.+)\.lua$/);
+        if (fn != null) _runTest(test, fn[1]);
+    }
+}
