@@ -21,7 +21,9 @@
     "url": "https://github.com/dreamlover/DoxyLua/issues"
   },
   "homepage": "https://github.com/dreamlover/DoxyLua",
-  "bin": { "doxylua" : "./cli.js" },
+  "bin": {
+    "doxylua": "./cli.js"
+  },
   "dependencies": {
     "luaparse": "^0.1.4"
   }

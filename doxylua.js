@@ -47,6 +47,15 @@
 
     // Different line endings will afftects the line number.
     var sz = fs.readFileSync(file).toString().replace(/(\r\n|\r|\n)/g, "\n");
+
+    // Make sure it's utf8 encoding strings passed to luaparse.
+    // var jschardet = require("jschardet");
+    // var encodingResult = jschardet.detect(sz);
+    // if (encodingResult.encoding != "ascii") {
+    //     var encoding = require("encoding");
+    //     sz = encoding.convert(sz, "utf-8", encodingResult.encoding).toString();
+    // }
+
     luaparse.parse(sz, { "comments" : true, "scope" : true, "locations" : true, "ranges" : false });
     nodes.unshift({ "type" : "FileHeader", "file" : file, "loc" : { "start" : { "line" : 2 } } });
     comments.push(lastComment);
