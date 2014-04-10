@@ -1,9 +1,27 @@
 #!/usr/bin/env node
 
-if (process.argv.length < 3) {
-    console.log('Usage: doxylua [file]')
-    console.log('Examples: doxylua foo.lua')
-    return ;
-}
+var opts = require('nomnom')
+    .option('show-ast', {
+        abbr: 's',
+        flag: true,
+        help: 'Print out the AST of the specified lua file.',
+    })
+    .option('locations', {
+        abbr: 'l',
+        flag: true,
+        help: 'Specify whether the location infos are included in the output. \n \
+                    Default to false. \n \
+                    Only has effect when --show-ast was set. '
+    })
+    .option('FILE', {
+        position: 0,
+        help: 'The path to a lua file.',
+        required: true
+    })
+    .parse();
 
-console.log(require('../lib/doxylua.js')(process.argv[2]));
+var doxylua = require('../lib/doxylua.js');
+if (opts['show-ast'] != true) 
+    console.log(doxylua(opts.FILE, false));
+else
+    doxylua(opts.FILE, true, opts.locations);

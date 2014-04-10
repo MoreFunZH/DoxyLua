@@ -7,8 +7,8 @@ var doxylua = require('../lib/doxylua.js'),
 function _runTest(test, file) {
     test.equal(
         doxylua(file + '.lua'),
-        fs.readFileSync(file + '.h').toString().replace(/(\r\n|\r|\n)/g, '\n'));
-    test.done();
+        fs.readFileSync(file + '.h').toString().replace(/(\r\n|\r|\n)/g, '\n'),
+        file);   
 }
 
 exports['runAllTests'] = function (test) { 
@@ -17,4 +17,5 @@ exports['runAllTests'] = function (test) {
         var fn = files[i].match(/(.+)\.lua$/);
         if (fn != null) _runTest(test, fn[1]);
     }
+    test.done();
 }

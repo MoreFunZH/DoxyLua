@@ -5,13 +5,6 @@
 ///
 
 ///
-/// This is _funcT.
-/// @param arg1 This is arg1.
-/// @param arg2 This is arg2.
-/// @return Return something.
-local function _funcT(arg1, arg2);
-
-///
 /// This is funcT.
 /// @param arg1 This is arg1.
 /// @param arg2 This is arg2.
