@@ -18,6 +18,7 @@ var opts = require('nomnom')
         help: 'The path to a lua file.',
         required: true
     })
+    .script('doxylua')
     .parse();
 
 var doxylua = require('../lib/doxylua.js');
