@@ -7,10 +7,10 @@
 
 var indexSectionsWithContent =
 {
-  0: "cefps",
+  0: "cefgps",
   1: "s",
   2: "f",
-  3: "cp",
+  3: "cgp",
   4: "s",
   5: "e"
 };

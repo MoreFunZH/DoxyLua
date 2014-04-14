@@ -75,5 +75,8 @@ function CClass:func2(arg1, arg2)
 end
 ```
 
-###Output Sample
-![](https://www.flickr.com/photos/82580360@N03/13844420663/)
+###Sample output
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_1.png)
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_2.png)
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_3.png)
+ 

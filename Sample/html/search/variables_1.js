@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['prop1',['prop1',['../sample1_8lua.html#a1c9d3d4c43065088ecbdd3b621ed37ee',1,'sample1.lua']]],
-  ['prop2',['prop2',['../sample1_8lua.html#a8942bb2211994b84394ed5b547f2fc41',1,'sample1.lua']]]
+  ['gvar1',['gVar1',['../sample_8lua.html#abb06e77061234163ffe418527df9272c',1,'sample.lua']]],
+  ['gvar2',['gVar2',['../sample_8lua.html#a7a40969bcee2cfd89a3f750c362f27aa',1,'sample.lua']]]
 ];
