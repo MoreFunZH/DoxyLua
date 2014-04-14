@@ -1,4 +1,4 @@
-/// @enum
+/// @enum Color
 /// Table enum test.
 enum Color {
     RED = 1, ///< Red Color.
