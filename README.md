@@ -75,4 +75,5 @@ function CClass:func2(arg1, arg2)
 end
 ```
 
-
+###Output Sample
+![](https://www.flickr.com/photos/82580360@N03/13844420663/)
