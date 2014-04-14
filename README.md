@@ -76,7 +76,7 @@ end
 ```
 
 ###Sample output
-![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_1.png)
-![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_2.png)
-![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample_3.png)
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample1.png)
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample2.png)
+![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample3.png)
  
