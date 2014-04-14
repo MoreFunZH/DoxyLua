@@ -1,6 +1,6 @@
 {
   "name": "doxylua",
-  "version": "0.1.1",
+  "version": "0.0.2",
   "description": "Provide a Doxygen Filter for lua files.",
   "main": "index.js",
   "scripts": {

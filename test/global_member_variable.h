@@ -1,2 +1,1 @@
-/// Class member variable.
-CClass foo = 3;
+CClass foo = 3; ///< Class member variable.

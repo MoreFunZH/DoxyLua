@@ -77,7 +77,7 @@ $(document).ready(function(){initNavTree('sample1_8lua.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -88,7 +88,9 @@ $(document).ready(function(){initNavTree('sample1_8lua.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">sample1.lua File Reference</div>  </div>
 </div><!--header-->
@@ -99,23 +101,70 @@ $(document).ready(function(){initNavTree('sample1_8lua.html','');});
 
 <p><a href="sample1_8lua_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afcac3511429181907b324fa566e6147d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#afcac3511429181907b324fa566e6147d">SomeEnum</a> { <a class="el" href="sample1_8lua.html#afcac3511429181907b324fa566e6147da8ac106a2a0779565ad972ac4314f4d10">Enum1</a> = 1, 
+<a class="el" href="sample1_8lua.html#afcac3511429181907b324fa566e6147dab835515b078d0fde7ddfb245937aa0aa">Enum2</a> = 2, 
+<a class="el" href="sample1_8lua.html#afcac3511429181907b324fa566e6147da6d8bd6a7b94429614d045d1cb574d7ef">Enum3</a> = 3
+ }</td></tr>
+<tr class="separator:afcac3511429181907b324fa566e6147d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1b25dcfd222fc1a83ad0ab5e73fb9b84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a1b25dcfd222fc1a83ad0ab5e73fb9b84">function</a> (arg1, arg2,)</td></tr>
-<tr class="separator:a1b25dcfd222fc1a83ad0ab5e73fb9b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4f24fca2a7086dce27836aceb79821"><td class="memItemLeft" align="right" valign="top">function <a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a2c4f24fca2a7086dce27836aceb79821">func1</a> (arg1, arg2)</td></tr>
+<tr class="separator:a2c4f24fca2a7086dce27836aceb79821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed1116c1619bf1bbf68081b2bc4f08b"><td class="memItemLeft" align="right" valign="top">function <a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a6ed1116c1619bf1bbf68081b2bc4f08b">func2</a> (arg1, arg2)</td></tr>
+<tr class="separator:a6ed1116c1619bf1bbf68081b2bc4f08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2b69c74036cc3a2a35c5aac054dfa154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a> =</td></tr>
+<tr class="separator:a2b69c74036cc3a2a35c5aac054dfa154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9d3d4c43065088ecbdd3b621ed37ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a1c9d3d4c43065088ecbdd3b621ed37ee">prop1</a> = nil</td></tr>
+<tr class="memdesc:a1c9d3d4c43065088ecbdd3b621ed37ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is CClass's member property prop1.  <a href="#a1c9d3d4c43065088ecbdd3b621ed37ee">More...</a><br/></td></tr>
+<tr class="separator:a1c9d3d4c43065088ecbdd3b621ed37ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8942bb2211994b84394ed5b547f2fc41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sample1_8lua.html#a8942bb2211994b84394ed5b547f2fc41">prop2</a> = nil</td></tr>
+<tr class="memdesc:a8942bb2211994b84394ed5b547f2fc41"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is CClass's member property prop2.  <a href="#a8942bb2211994b84394ed5b547f2fc41">More...</a><br/></td></tr>
+<tr class="separator:a8942bb2211994b84394ed5b547f2fc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is a sample lua file with comments. </p>
 <dl class="section author"><dt>Author</dt><dd>dreamlover </dd></dl>
 
 <p>Definition in file <a class="el" href="sample1_8lua_source.html">sample1.lua</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a1b25dcfd222fc1a83ad0ab5e73fb9b84"></a>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="afcac3511429181907b324fa566e6147d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function </td>
+          <td class="memname">enum <a class="el" href="sample1_8lua.html#afcac3511429181907b324fa566e6147d">SomeEnum</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="afcac3511429181907b324fa566e6147da8ac106a2a0779565ad972ac4314f4d10"></a>Enum1</em>&#160;</td><td class="fielddoc">
+<p>This is Enum1. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="afcac3511429181907b324fa566e6147dab835515b078d0fde7ddfb245937aa0aa"></a>Enum2</em>&#160;</td><td class="fielddoc">
+<p>This is Enum2. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="afcac3511429181907b324fa566e6147da6d8bd6a7b94429614d045d1cb574d7ef"></a>Enum3</em>&#160;</td><td class="fielddoc">
+<p>This is Enum3. </p>
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="sample1_8lua_source.html#l00009">9</a> of file <a class="el" href="sample1_8lua_source.html">sample1.lua</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a2c4f24fca2a7086dce27836aceb79821"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function <a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a> func1 </td>
           <td>(</td>
           <td class="paramtype">arg1&#160;</td>
           <td class="paramname">, </td>
@@ -141,7 +190,33 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return something.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Return something. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ed1116c1619bf1bbf68081b2bc4f08b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function <a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a> func2 </td>
+          <td>(</td>
+          <td class="paramtype">arg1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">arg2&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 <p>This is CClass's member function func2. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -154,13 +229,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a2b69c74036cc3a2a35c5aac054dfa154"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CClass =</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="sample1_8lua_source.html#l00015">15</a> of file <a class="el" href="sample1_8lua_source.html">sample1.lua</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c9d3d4c43065088ecbdd3b621ed37ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a> prop1 = nil</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is CClass's member property prop1. </p>
+
+<p>Definition at line <a class="el" href="sample1_8lua_source.html#l00019">19</a> of file <a class="el" href="sample1_8lua_source.html">sample1.lua</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8942bb2211994b84394ed5b547f2fc41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="sample1_8lua.html#a2b69c74036cc3a2a35c5aac054dfa154">CClass</a> prop2 = nil</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is CClass's member property prop2. </p>
+
+<p>Definition at line <a class="el" href="sample1_8lua_source.html#l00021">21</a> of file <a class="el" href="sample1_8lua_source.html">sample1.lua</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c807abc01c3358b2409f070c37c24516.html">folder</a></li><li class="navelem"><a class="el" href="sample1_8lua.html">sample1.lua</a></li>
-    <li class="footer">Generated on Thu Apr 3 2014 17:35:13 for Sample Project by
+    <li class="footer">Generated on Mon Apr 14 2014 16:33:18 for Sample Project by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

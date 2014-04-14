@@ -7,16 +7,22 @@
 
 var indexSectionsWithContent =
 {
-  0: "_fs",
+  0: "cefps",
   1: "s",
-  2: "_f"
+  2: "f",
+  3: "cp",
+  4: "s",
+  5: "e"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "files",
-  2: "functions"
+  2: "functions",
+  3: "variables",
+  4: "enums",
+  5: "enumvalues"
 };
 
 function convertToId(search)
