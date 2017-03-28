@@ -3,20 +3,20 @@ DoxyLua
 
 Another Doxygen Filter for Lua files provided as a npm package for node.js.
 
-###Usage - Generate documentation for lua files.
-1. Install the doxygen package globally: ```npm install -g doxylua```  
-2. Config your doxygen's config file: ```FILTER_PATTERNS = *.lua=doxylua```
-3. Run doxygen in your source folder: ```doxygen DoxyFile```
+### Install
+```npm install -g doxylua```  
 
-###Usage - View AST of lua file.
-1. Install the doxygen package globally: ```npm install -g doxylua```
-2.  ```doxylua foo.lua --show-ast [--locations]```
+### Usage - Generate documentation for lua files.
+1. Config your doxygen's config file: ```FILTER_PATTERNS = *.lua=doxylua```
+2. Run doxygen in your source folder: ```doxygen DoxyFile```
 
-###Tests
-1. Install the doxygen package nodeunit: ```npm install -g nodeunit```
-2. In this root folder, run commandline: ```nodeunit --reporter tap test```
+### Usage - View AST of lua file.
+```doxylua foo.lua --show-ast [--locations]```
 
-###Comments Sample
+### Tests
+In this root folder, run command: ```nodeunit --reporter tap test```
+
+### Comments Sample
 ```lua
 ---------------------------------------------------------------------------------
 -- @author dreamlover
@@ -75,8 +75,7 @@ function CClass:func2(arg1, arg2)
 end
 ```
 
-###Sample output
+### Sample output
 ![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample1.png)
 ![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample2.png)
 ![alt tag](https://github.com/dreamlover/DoxyLua/raw/master/Sample/sample3.png)
- 
